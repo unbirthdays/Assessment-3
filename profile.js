@@ -21,7 +21,7 @@ function handleRitual(evt) {
 let form = document.querySelector('#msgMo');
 let color = document.querySelector('#color');
 let place = document.querySelector('#place');
-let ritual = document.querySelector('ritual');
+let ritual = document.querySelector('#ritual');
 
 form.addEventListener('submit', handleSubmit);
 color.addEventListener('click', handleColor);
