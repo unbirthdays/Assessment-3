@@ -11,21 +11,18 @@ nav {
 	border-bottom: 2px solid rgb(128, 185, 159);
 }
 
-ol {
-	padding-left: 0;
-}
-
 .crumb {
 	margin-right: 2em;
 	display: inline;
+	justify-content: center;
 }
 
 a {
-	color: orange;
+	color: #2b89528c;
 }
 
 a:visited {
-	color: crimson;
+	color: rgb(32, 117, 50);
 }
 
 img {
@@ -54,11 +51,24 @@ img {
 }
 
 .details {
-	display: inline-block;
-	width: 150px;
-	margin: 20px;
+	display: flex;
+	width: 165px;
 }
 
 #moInfo {
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+h6 {
+	font-size: 14px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: oblique;
+}
+
+.btn {
+	background-color: yellow;
+	font-size: 25px;
+	width: 150px;
 }
