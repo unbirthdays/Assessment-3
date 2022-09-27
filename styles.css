@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background: rgb(246, 240, 215);
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid rgb(128, 185, 159);
 }
 
 ol {
@@ -30,4 +30,35 @@ a:visited {
 
 img {
 	max-width: 300px;
+}
+
+#myMo {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#moCap {
+	font-size: 12px;
+	font-weight:lighter;
+	font-style: italic;
+}
+
+#moPic {
+	height: 180px;
+	float: left;
+	margin-right: 15px;
+}
+
+#bio {
+	align-items: center;
+}
+
+.details {
+	display: inline-block;
+	width: 150px;
+	margin: 20px;
+}
+
+#moInfo {
+	display: flex;
 }
